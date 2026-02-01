@@ -2,6 +2,8 @@ import Vue from 'vue'
 import './style.css'
 import App from './App.vue'
 
-new Vue({
+const app = new Vue({
   render: h => h(App),
-}).$mount('#app')
+})
+
+app.$mount('#app')
